@@ -1,0 +1,28 @@
+.water{
+  width:250px;
+  height:auto;
+}
+.goal,.checklist,.graph{
+  width:100px;
+  height:auto; 
+  margin-left:50px;
+}
+.container{
+  margin-top:20px;
+  padding-bottom: 60px;
+
+}
+
+.row{
+  margin-bottom:40px;
+}
+
+h1{
+  font-weight: 700;
+  margin-top:40px;
+}
+
+h3{
+  margin-top:2px;
+  margin-left:10px;
+}
