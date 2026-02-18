@@ -42,5 +42,10 @@ The system includes authentication, daily intake management, pagination, and dat
 - Bootstrap
 
 ---
+#  Daily Water Intake Tracker App
+
+Live Demo: [Click Here to View](https://hydration-tracker-psi.vercel.app/)
+
+
 
 
