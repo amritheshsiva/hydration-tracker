@@ -30,10 +30,10 @@ function Home(){
     const currentDate = getToday();
     const currentTime = new Date().toLocaleTimeString();
     const existingEntries = JSON.parse(localStorage.getItem(storageKey)) || [];
+    
     const alreadyExists = existingEntries.find(
       item => item.date === currentDate
     );
-    
     if (alreadyExists) {
       alert("You can only add one intake per day.");
       return;

@@ -74,7 +74,7 @@ function ViewList() {
     <div className="container py-4">
       <h2 className="mb-4">Water Intake History</h2>
       {intakeList.length === 0 ? (<p>No records found.</p> ) : (
-          <>
+          <div>
           <table className="table table-bordered">
             <thead>
               <tr>
@@ -115,7 +115,7 @@ function ViewList() {
               <button className="page-link" onClick={goToNext}>Next</button>
              </li>
             </ul>
-          </>
+          </div>
         )}
       </div>
     </div>

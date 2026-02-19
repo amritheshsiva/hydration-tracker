@@ -14,7 +14,7 @@ function Navbar() {
             axios.post("https://demo-blog.mashupstack.com/api/logout",
                 {},
                 {
-                    headers: {
+                     headers: {
                         Authorization: "Bearer " + user.token
                     }
                 }
@@ -46,9 +46,7 @@ function Navbar() {
             )}
             {user && (
                 <li className="nav-item">
-                    <span className="nav-link" onClick={logout} style={{ cursor: "pointer" }}>
-                        Logout
-                    </span>
+                    <span className="nav-link" onClick={logout} style={{ cursor: "pointer" }}>Logout</span>
                 </li>
             )}
         </ul>
